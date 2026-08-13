@@ -71,7 +71,7 @@ for row in conn.execute(open('analytics_queries.sql').read().split(';')[0]):
 "
 ```
 
-## Design notes worth mentioning in an interview
+## Design notes 
 
 - **Separation of concerns**: ingest/transform/load are independent
   modules, each testable on its own — standard ETL practice.
