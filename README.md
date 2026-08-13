@@ -63,7 +63,7 @@ Open `pipeline.db` with any SQLite client, or run the queries in
 `analytics_queries.sql`, e.g.:
 
 ```bash
-python3 -c "
+python -c "
 import sqlite3
 conn = sqlite3.connect('pipeline.db')
 for row in conn.execute(open('analytics_queries.sql').read().split(';')[0]):
