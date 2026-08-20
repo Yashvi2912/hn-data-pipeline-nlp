@@ -1,5 +1,4 @@
 -- Example analytics queries you can run against pipeline.db once it has data.
--- Useful to have ready for an interview: shows you can go beyond building
 -- the pipeline and actually extract insight from what it produces.
 
 -- 1. Story count and average score by topic
